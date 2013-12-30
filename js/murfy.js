@@ -1,7 +1,24 @@
 (function ($) {
     
 $(document).ready(function(){
-	// Expandable blocks should be 40px by default when page is loaded
+
+/*// Change background on search box when a user focuses on it
+$('#edit-search-block-form--2').focus(function() {
+//	$(this).animate({backgroundColor: "#c2e7de"}, 500);	
+	$(this).css({'background-color': '#c2e7de'});	
+	});
+*/
+
+
+
+
+
+
+
+
+/* OLD CODE that collapses content with the 'expandable-block' class and makes them auto-expand when you hover over them.  */
+
+/*	// Expandable blocks should be 40px by default when page is loaded
 	$('.expandable-block').css({
 		height: 40,
 		overflow: "hidden",
@@ -20,29 +37,9 @@ $(document).ready(function(){
 				overflow: "hidden"
 			}, 500).children('.block-content').css({backgroundColor: "#ffffff"});
 	});
-});	
-
-
-
-/*
-	$('.expandable-block').hover(
-		function(){
-			$(this).css({
-				height: 150,
-				cursor: "pointer",
-				backgroundColor: "#7faaa1"
-			}, "slow");
-		},
-		function(){
-			$(this).css({ 
-				height: 40,
-				cursor: "default",
-				backgroundColor: "#ffffff"
-			}, "slow");
-	});
 */
 
 
-
+});	
 	
 })(jQuery);

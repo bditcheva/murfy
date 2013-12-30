@@ -6,9 +6,8 @@
 // BD
 // --------------------------------------------------
 @purple: 		#cc7296;
-@mint-green: 	#c2e7de;
+@mint-green: 	        #c2e7de;
 @mint-green-dark:	#87a39c;
-
 
 
 // --------------------------------------------------
@@ -265,9 +264,11 @@
 
 // Navbar links
 @navbar-default-link-color:                #777;
-@navbar-default-link-hover-color:          #333;
+//@navbar-default-link-hover-color:          #333;    // DEFAULT
+@navbar-default-link-hover-color:          @mint-green-dark;
 @navbar-default-link-hover-bg:             transparent;
-@navbar-default-link-active-color:         #555;
+//@navbar-default-link-active-color:         #555;    // DEFAULT
+@navbar-default-link-active-color:         darken(@mint-green-dark, 15%);
 @navbar-default-link-active-bg:            darken(@navbar-default-bg, 6.5%);
 @navbar-default-link-disabled-color:       #ccc;
 @navbar-default-link-disabled-bg:          transparent;
